@@ -19,7 +19,8 @@ void findPairs(int array[], int sum, int size){
 				for(int n = 0; n < array_size; n++){
 					printf("%d ", array[n]);
 				}
-				printf("that creates the sum %d ", sum);
+				printf("that creates the sum %d \n", sum);
+				printf("First pair found is %d, %d", array[i], array[j]);
 			}
 	
 
